@@ -202,6 +202,7 @@
                     <div class="game-card" onclick="openGame('dress')">
                         <div style="font-size: 45px;">👗</div>
                         <div class="game-card-title">Dress to Impress</div>
-                        // Run setup immediately!
-initGame();
+                       // Run setup safely on the web!
+window.onload = initGame;
+
 
